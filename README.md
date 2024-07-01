@@ -8,6 +8,7 @@ kaggle.
 This project aims to develop a spam classifier using  Machine Learning techniques. The goal is to accurately differentiate between spam and ham (non-spam) messages in the SMS text data.
 
 ### Methodology
+
 ## 1. Data Acquisition and Preprocessing
 
 The SMS Spam Collection Dataset from Kaggle was used for this project.
@@ -51,19 +52,15 @@ Classification reports for both the training and test data were generated, provi
 The confusion matrix in percentage form illustrated the distribution of false positives and false negatives.
 
 ## 9. Cross Validation
-Cross-validation was performed to assess model performance and variance.
 
+Cross-validation was performed to assess model performance and variance.
 The mean accuracy score of the Random Forest Classifier was calculated.
 
-## 10. Model Saving
-The trained Random Forest Classifier model was saved using the joblib library.
-
 ### Conclusion
-In conclusion, the developed SMS spam classifier successfully differentiates between spam and ham messages with high accuracy and precision. The Random Forest Classifier emerged as the best-performing model, providing consistent results on both training and test data. This project showcases the effectiveness of NLP techniques and machine learning algorithms in tackling text classification tasks.
+In conclusion, the developed SMS spam classifier successfully differentiates between spam and ham messages with high accuracy and precision. The Random Forest Classifier emerged as the best-performing model, providing consistent results on both training and test data. This project showcases the effectiveness of machine learning algorithms in tackling text classification tasks.
 
-#### Future Work
+### Future Work
+
 Further hyperparameter tuning could be performed to optimize model performance.
-
 Ensemble methods or deep learning architectures could be explored for potential improvements.
-
 The model could be integrated into a messaging platform or email client for practical use.
